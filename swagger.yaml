@@ -231,10 +231,10 @@ paths:
 
   /senior-center-services:
     get:
-      summary: 모든 시니어 문화생활 조회
-      description: 등록된 모든 시니어 문화생활 목록을 조회합니다.
+      summary: 모든 노인복지관 프로그램 조회
+      description: 등록된 모든 노인복지관 프로그램 목록을 조회합니다.
       tags:
-        - 시니어 문화생활
+        - 노인복지관 프로그램
       parameters:
         - name: type
           in: query
@@ -270,10 +270,10 @@ paths:
 
   /senior-center-services/{id}:
     get:
-      summary: 시니어 문화생활 ID로 조회
+      summary: 노인복지관 프로그램 ID로 조회
       description: ID를 기준으로 특정 시니어 문화생활의 상세 정보를 조회합니다.
       tags:
-        - 시니어 문화생활
+        - 노인복지관 프로그램
       parameters:
         - name: id
           in: path
